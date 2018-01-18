@@ -1433,20 +1433,20 @@ h5 {
 }
 
 #header .single-form :focus {
-    border-color: #594aaa
+    border-color: #009688
 }
 
 #header button {
-    background: #7b69da;
-    border: #7b69da;
+    background: #26A69A;
+    border: #26A69A;
     color: #fff;
     margin-left: 35px
 }
 
 #header button:hover {
     color: #fff;
-    background: #594aaa;
-    border: #594aaa
+    background: #009688;
+    border: #009688
 }
 
 @media (max-width: 991px) {
@@ -1460,7 +1460,7 @@ h5 {
 }
 
 #header.navbar-home .icon-bar {
-    background-color: #594aaa;
+    background-color: #009688;
     display: block
 }
 
@@ -1482,10 +1482,8 @@ h5 {
 
 .overlay-color {
     position: relative;
-    background: linear-gradient(
-                    rgba(17, 147, 154, 0.7),
-                    rgba(17, 147, 154, 0.7)),
-                url(../img/cloud/datacenter_bg.png) 50% 100%;
+    /*../img/cloud/sf_header_slow.gif*/
+    background: linear-gradient( rgba(1, 63, 66, 0.7), rgba(26, 89, 93, 0.7)), url(../img/cloud/bg_galaxy_scale.jpg) 50% 100%;
     background-size: cover
 }
 
@@ -1542,15 +1540,15 @@ h5 {
     box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
     font-weight: 600;
     font-family: 'Lato', sans-serif;
-    background-color: #594aaa;
-    border-color: #594aaa;
+    background-color: #009688;
+    border-color: #009688;
     color: #fff
 }
 
 .btn.btn-fill:hover {
     color: #fff;
-    border-color: #7b69da;
-    background-color: #7b69da;
+    border-color: #26A69A;
+    background-color: #26A69A;
     transform: translateY(-1px);
     box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08)
 }
@@ -1567,8 +1565,8 @@ h5 {
     padding: 0 30px;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
     background-color: rgba(43, 222, 115, 0);
-    border-color: #594aaa;
-    color: #594aaa
+    border-color: #009688;
+    color: #009688
 }
 
 .social-icon {
@@ -1593,7 +1591,7 @@ h5 {
     background-color: transparent;
     color: #016d2c;
     border: none;
-    border-color: #594aaa
+    border-color: #009688
 }
 
 .social-icon li a:focus, .social-icon li a:hover {
@@ -1678,7 +1676,7 @@ h5 {
 }
 
 .single-form .form-control:focus {
-    border-color: #594aaa
+    border-color: #009688
 }
 
 .single-form textarea {
@@ -1817,7 +1815,7 @@ h5 {
 }
 
 #loc i, #work i {
-    color: #594aaa;
+    color: #009688;
     margin-right: 10px;
     width: 1em;
     text-align: center
@@ -2072,7 +2070,7 @@ h5 {
 }
 
 .main-navbar-top .okayNav__nav--invisible .btn-nav, .main-navbar-top.navbar-home ul li .btn-nav {
-    color: #594aaa;
+    color: #009688;
     background-color: transparent
 }
 
@@ -2106,11 +2104,11 @@ h5 {
 }
 
 .main-navbar-top.navbar-home ul li .btn-nav:hover, .main-navbar-top.navbar-home ul li.active .btn-nav {
-    color: #594aaa
+    color: #009688
 }
 
 .main-navbar-top.navbar-home ul li .select-btn {
-    border: 1px solid #594aaa
+    border: 1px solid #009688
 }
 
 .main-navbar-top.navbar-home .navbar-nav .btn-nav.btn-border {
@@ -2145,7 +2143,7 @@ h5 {
 }
 
 #bounty, #wave-bg-w {
-    background-image: url(../img/cloud/patterns-bg.png), url(../img/cloud/dots_bg.png);
+    background-image: url(../img/cloud/patterns_bg.png), url(../img/cloud/dots_bg.png);
     background-size: 100%;
     padding-top: 100px
 }
@@ -2184,7 +2182,7 @@ h5 {
 }
 
 .header-section-1 .btn-form h3 i {
-    color: #594aaa;
+    color: #009688;
     font-size: 15px
 }
 
@@ -2197,7 +2195,7 @@ h5 {
 .features-section-1 .features-icon {
     font-size: 40px;
     display: block;
-    color: #594aaa;
+    color: #009688;
     margin-bottom: 30px
 }
 
@@ -2309,7 +2307,7 @@ h5 {
     font-size: 15px;
     font-weight: 300;
     line-height: 30px;
-    color: #594aaa;
+    color: #009688;
     -webkit-transition: all .4s ease-out;
     -moz-transition: all .4s ease-out;
     -o-transition: all .4s ease-out;
@@ -2501,7 +2499,7 @@ h5 {
 }
 
 .footer {
-    background: #594aaa;
+    background: #00796B;
     min-height: 500px;
     padding: 0;
     flex-direction: row
@@ -2625,12 +2623,12 @@ h5 {
 
 @media screen and (max-width: 767px) {
     .social {
-        margin: 20px 0
+        margin: 20px 0;
     }
 }
 
 .background-corporate {
-    background: #594aaa
+    background: #00796B;
 }
 
 #navbar-nav li {
@@ -2640,20 +2638,20 @@ h5 {
 @media (max-width: 767px) {
     #navbar-nav li {
         width: 100%;
-        padding: 5px 0
+        padding: 5px 0;
     }
 }
 
 #navbar-nav .nav-line {
     padding: 10px 6px;
     text-transform: uppercase;
-    font-size: smaller
+    font-size: smaller;
 }
 
 #navbar-nav .nav-line.blog {
     border-radius: 8px;
     background-color: rgba(43, 222, 115, 0);
-    border: 1px solid
+    border: 1px solid;
 }
 
 #navbar-nav .dropdown-menu:after {
@@ -2706,11 +2704,11 @@ span.sticker-telegram {
 }
 
 .fa-circle-thin:hover {
-    background: url(../img/cloud/combined_shapek_.png)
+    background: url(../img/cloud/patterns_bg.png)
 }
 
 .fa-circle {
-    background: url(../img/cloud/logo-blogit.png)
+    background: url(../img/cloud/bg_galaxy_scale.jpg)
 }
 
 .wrapper {
@@ -2921,7 +2919,7 @@ span.sticker-telegram {
 ul#countdown {
     /*display: none;*/
     top: 50%;
-    margin: -2% auto 1%;
+    margin: 2% auto 1%;
     padding: 0
 }
 
@@ -3017,12 +3015,12 @@ ul#countdown #seconds {
 }
 
 #subscribe #contact-email {
-    color: #594aaa
+    color: #009688
 }
 
 #subscribe #contact-email:focus {
-    border-color: #594aaa;
-    color: #594aaa;
+    border-color: #009688;
+    color: #009688;
     border-width: 2px;
     transition: all .3s
 }
@@ -3353,7 +3351,7 @@ input[id=pos-3]:checked ~ .chart .growing-bar {
 }
 
 input[id=pos-0]:checked ~ .actions label[for=pos-0], input[id=pos-1]:checked ~ .actions label[for=pos-1], input[id=pos-2]:checked ~ .actions label[for=pos-2], input[id=pos-3]:checked ~ .actions label[for=pos-3] {
-    color: #594aaa
+    color: #009688
 }
 
 .subscription_message {
@@ -3482,11 +3480,11 @@ input[id=pos-0]:checked ~ .actions label[for=pos-0], input[id=pos-1]:checked ~ .
 .card-style .icon {
     height: 32px;
     margin: 5px auto 15px;
-    filter: none
+    filter: grayscale(1);
 }
 
 .card-style p {
-    color: #594aaa;
+    color: #009688;
     margin: 0;
     font-size: 13px;
     line-height: 20px;
@@ -3495,7 +3493,7 @@ input[id=pos-0]:checked ~ .actions label[for=pos-0], input[id=pos-1]:checked ~ .
 }
 
 .btn-comment {
-    background: #7b69da;
+    background: #26A69A;
     border-radius: 50%;
     padding: 10px 5px;
     width: 60px;
@@ -3552,7 +3550,7 @@ input[id=pos-0]:checked ~ .actions label[for=pos-0], input[id=pos-1]:checked ~ .
 }
 
 .modal-header {
-    background: #594aaa;
+    background: #009688;
     border-radius: 4px 4px 0 0
 }
 
