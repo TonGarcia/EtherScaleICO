@@ -57,16 +57,19 @@
             * Top Fixed Navbar
             * =======================================
             */
-        $(document).on('scroll', function() {
-            var activeClass = 'navbar-home',
-                ActiveID        = '.main-navbar-top',
-                scrollPos       = $(this).scrollTop();
-            if( scrollPos > 10 ) {
-                $( ActiveID ).addClass( activeClass );
-            } else {
-                $( ActiveID ).removeClass( activeClass );
-            }
-        });
+        // $(document).on('scroll', function() {
+        //     // TODO Test A/B... if something (analytics param...), scroll, else nothing...
+        //     if(false) {
+        //         var activeClass = 'navbar-home',
+        //             ActiveID        = '.main-navbar-top',
+        //             scrollPos       = $(this).scrollTop();
+        //         if( scrollPos > 10 ) {
+        //             $( ActiveID ).addClass( activeClass );
+        //         } else {
+        //             $( ActiveID ).removeClass( activeClass );
+        //         }
+        //     }
+        // });
         /**
             * =======================================
             * NAVIGATION SCROLL

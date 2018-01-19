@@ -2522,6 +2522,12 @@ h5 {
     font-weight: 300
 }
 
+.navbar-clean {
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
 .footer p, .footer > .row nav ul li a {
     font-weight: 400;
     font-family: 'Lato', sans-serif
@@ -3432,9 +3438,12 @@ input[id=pos-0]:checked ~ .actions label[for=pos-0], input[id=pos-1]:checked ~ .
     padding-bottom: 100px;
 }
 
-.background-pink-triangle {
-    background: linear-gradient(-88deg, #eb82c8 0%, #ed8bad 100%);
-    box-shadow: 0 20px 45px 0 rgba(235, 131, 198, .5)
+.background-gray-triangle {
+    /*background: linear-gradient(-88deg, #eb82c8 0%, #ed8bad 100%);*/
+    /*box-shadow: 0 20px 45px 0 rgba(235, 131, 198, .5);*/
+
+    background: linear-gradient(-88deg, #709aa2 0%, #c5d5d8 100%);
+    box-shadow: 0 20px 45px 0 rgba(163, 175, 183, 0.5);
 }
 
 .background-green-cube {
