@@ -1089,15 +1089,21 @@ img.mfp-img {
     left: 27px
 }
 
+/*@media (min-width: 600px) and (max-width: 767px) {*/
+    /*.project-item .project-image {*/
+        /*position: static !important;*/
+    /*}*/
+/*}*/
+
 @media (max-width: 767px) {
     .okayNav__nav--invisible {
         border-top: 1px solid rgba(23, 23, 23, .08);
         left: 0;
-        right: 0
+        right: 0;
     }
 
     .okayNav__nav--invisible a {
-        width: auto
+        width: auto;
     }
 }
 
@@ -1813,12 +1819,12 @@ h5 {
         min-height: 220px
     }
 
-    #loc li, #work li {
+    section.loc li, #work li {
         display: block
     }
 }
 
-#loc i, #work i {
+section.loc i, #work i {
     color: #009688;
     margin-right: 10px;
     width: 1em;
@@ -2035,26 +2041,26 @@ h5 {
     letter-spacing: 0;
     text-transform: none;
     border: 1px solid;
-    border-color: transparent
+    border-color: transparent;
 }
 
 .main-navbar-top ul li .btn-nav:focus {
-    background-color: transparent !important
+    background-color: transparent !important;
 }
 
 .main-navbar-top ul li .btn-nav:hover {
     background-color: transparent;
-    color: #fff
+    color: #fff;
 }
 
 .main-navbar-top ul li.active .btn-nav {
-    color: #fff
+    color: #fff;
 }
 
 .main-navbar-top .navbar-nav {
     padding-top: 10px;
     text-transform: uppercase;
-    font-size: smaller
+    font-size: smaller;
 }
 
 .main-navbar-top .okayNav__nav--invisible {
@@ -2070,16 +2076,16 @@ h5 {
     -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .main-navbar-top .okayNav__nav--invisible .btn-nav, .main-navbar-top.navbar-home ul li .btn-nav {
     color: #009688;
-    background-color: transparent
+    background-color: transparent;
 }
 
 .main-navbar-top .okayNav__nav--invisible .btn-nav:hover {
-    color: #585858
+    color: #585858;
 }
 
 .main-navbar-top.navbar-home {
@@ -2088,47 +2094,47 @@ h5 {
     box-shadow: 0 1px 12px 0 rgba(0, 0, 0, .1);
     -moz-box-shadow: 0 1px 12px 0 rgba(0, 0, 0, .1);
     -webkit-box-shadow: 0 1px 12px 0 rgba(0, 0, 0, .1);
-    -o-box-shadow: 0 1px 12px 0 rgba(0, 0, 0, .1)
+    -o-box-shadow: 0 1px 12px 0 rgba(0, 0, 0, .1);
 }
 
 .main-navbar-top.navbar-home .okayNav__menu-toggle span {
-    background-color: #585858
+    background-color: #585858;
 }
 
 .main-navbar-top.navbar-home .okayNav__nav--invisible {
-    top: 70px
+    top: 70px;
 }
 
 .main-navbar-top.navbar-home .navbar-brand .logo-1, article input {
-    display: none
+    display: none;
 }
 
 .main-navbar-top.navbar-home .navbar-brand .logo-2, article {
-    display: block
+    display: block;
 }
 
 .main-navbar-top.navbar-home ul li .btn-nav:hover, .main-navbar-top.navbar-home ul li.active .btn-nav {
-    color: #009688
+    color: #009688;
 }
 
 .main-navbar-top.navbar-home ul li .select-btn {
-    border: 1px solid #009688
+    border: 1px solid #009688;
 }
 
 .main-navbar-top.navbar-home .navbar-nav .btn-nav.btn-border {
-    border-color: rgba(88, 88, 88, .7)
+    border-color: rgba(88, 88, 88, .7);
 }
 
 .main-navbar-top.navbar-home .navbar-nav .btn-nav.btn-border:hover {
-    border-color: #585858
+    border-color: #585858;
 }
 
 @keyframes background {
     0% {
-        background-position-y: 0
+        background-position-y: 0;
     }
     to {
-        background-position-y: -1012px
+        background-position-y: -1012px;
     }
 }
 
@@ -2136,13 +2142,13 @@ h5 {
     background-image: url(../img/cloud/coins-code-bg.png);
     background-repeat: no-repeat;
     background-position: 0 -4px;
-    padding-top: 150px
+    padding-top: 150px;
 }
 
 @media (max-width: 767px) {
     #wallet.up-bg-wallet {
         background-image: none;
-        padding-top: inherit
+        padding-top: inherit;
     }
 }
 
@@ -2155,7 +2161,7 @@ h5 {
 @media (max-width: 767px) {
     #bounty, #wave-bg-w {
         background-image: none;
-        padding-top: inherit
+        padding-top: inherit;
     }
 }
 
@@ -3500,7 +3506,12 @@ input[id=pos-0]:checked ~ .actions label[for=pos-0], input[id=pos-1]:checked ~ .
 .card-style .icon {
     height: 32px;
     margin: 5px auto 15px;
-    filter: grayscale(1);
+    /*filter: grayscale(1);*/
+    filter: hue-rotate(-77deg);
+}
+
+.card-style .icon.no-filter {
+    filter: none !important;
 }
 
 .card-style p {
